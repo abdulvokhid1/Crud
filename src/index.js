@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Crud from './Crud'
+import Read from './Read'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Read/>
+    {/* <Crud/> */}
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
